@@ -6,7 +6,7 @@ import InfoCart from './InfoCart';
 
 const Info = () => {
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5 px-12 text-white'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-5  text-white'>
             <InfoCart cartTitle="Opening Hours"
              bgClass="bg-gradient-to-r from-secondary to-primary" 
              img={clock}>
