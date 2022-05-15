@@ -4,8 +4,8 @@ const Footer = () => {
     const today = new Date();
     const year = today.getFullYear();
     return (
-        <footer class=" mt-28  p-10 bg-cover  bg-[url('/src/assets/images/footer.png')] text-accent">
-            <div className='footer'>
+        <footer className="  p-10 bg-cover  bg-[url('/src/assets/images/footer.png')] text-accent">
+            <div className='footer  ml-10'>
                 <div>
                     <span class="footer-title">Services</span>
                     <a class="link link-hover">Branding</a>
@@ -29,7 +29,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className='my-10 text-center'>
-                <p>Copyright © {year} - All right reserved by ACME Industries Ltd</p>
+                <p>Copyright © {year} - All right reserved</p>
             </div>
 
         </footer>

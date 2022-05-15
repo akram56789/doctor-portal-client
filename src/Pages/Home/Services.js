@@ -18,13 +18,13 @@ const Services = () => {
             <InfoServices img={logo3} serviceTitle="Teeth Whitening"></InfoServices>
         </div>
         <div className='mt-20'>
-        <div class="card lg:card-side bg-base-100 shadow-xl">
+        <div className="card lg:card-side bg-base-100 shadow-xl">
   <figure className='flex-1'><img  src={baby} alt="Album"/></figure>
-  <div class="card-body flex-1 justify-center  ">
-    <h2 class="card-title text-4xl">Exceptional Dental Care, on Your Terms</h2>
+  <div className="card-body flex-1 justify-center  ">
+    <h2 className="card-title text-4xl">Exceptional Dental Care, on Your Terms</h2>
     <h4>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsumis that it has a more-or-less normal distribution of letters,as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page</h4>
-    <div class="card-actions mt-10">
-          <button class="btn btn-primary text-white bg-gradient-to-r from-secondary to-primary">Get Started</button>
+    <div className="card-actions mt-10">
+          <button className="btn btn-primary text-white bg-gradient-to-r from-secondary to-primary">Get Started</button>
     </div>
   </div>
 </div>

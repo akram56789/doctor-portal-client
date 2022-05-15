@@ -44,13 +44,13 @@ const Customar = () => {
                 {
                     reviewers.map(reviewer =>
                         <div key={reviewer._id}>
-                            <div class="card w-lg bg-base-100 shadow-xl">
-                                <div class="card-body">
-                                    <h2 class="card-title">Card title!</h2>
+                            <div className="card w-lg bg-base-100 shadow-xl">
+                                <div className="card-body">
+                                    <h2 className="card-title">Card title!</h2>
                                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et iusto accusantium minima, quaerat tenetur perspiciatis?</p>
                                     <div className='flex items-center  mt-5'>
-                                        <div class="avatar">
-                                            <div class="w-16  mr-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                                        <div className="avatar">
+                                            <div className="w-16  mr-5 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
                                                 <img   src={reviewer.img} />
                                             </div>
                                         </div>
